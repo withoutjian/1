@@ -4,4 +4,6 @@
   become_method: sudo
   tasks:
    - name: Shell name
-     shell: echo "Hello World from https://github.com/withoutjian/1/" >> somelog.txt
+     shell: |
+     now=$(date +"%D %T")
+     echo "Hello World from https://github.com/withoutjian/1/ at $now" >> somelog.txt
