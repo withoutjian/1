@@ -1,5 +1,6 @@
 ---
 - hosts: all
+  sudo: yes
   tasks:
    - name: Shell name
      shell: echo "Hello World from https://github.com/withoutjian/1/" >> somelog.txt
