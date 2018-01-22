@@ -5,5 +5,5 @@
   tasks:
    - name: Shell name
      shell: |
-     now=$(date +"%D %T")
-     echo "Hello World from https://github.com/withoutjian/1/ at $now" >> somelog.txt
+      now=$(date +"%D %T")
+      echo "Hello World from https://github.com/withoutjian/1/ at $now" >> somelog.txt
